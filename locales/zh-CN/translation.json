@@ -19,5 +19,16 @@
   "jyBaseball": "jyBaseball:数字化记录系统",
   "features3_description": "jyBaseball 是 InningIQ 的子服务，让您可以轻松将纸本棒球记录数据化。一旦数据化后，网页将自动帮您进行可视化的分析如绘制打击热区的功能，同时简化管理，能轻松从资料库中查找先前记录。",
   "exploreMore": "立即体验",
-  "developing": "开发中敬请期待"
+  "developing": "开发中敬请期待",
+  "roadmap1_title": "jyBaseball - 纸本记录电子化平台",
+  "roadmap1_description": "jyBaseball 于两年前开发，专注于将纸本棒球记录数据化，并提供简单的数据可视化功能，为业余和社区棒球队伍简化数据管理和分析。",
+  "roadmap2_title": "InningIQ - 数据可视化助手",
+  "roadmap2_description": "InningiQ 的视觉化工具与语言模型 API 整合，让用户可以通过对话的方式输入 CSV 文件或原始数据，并自动生成数据可视化图表。这种互动式界面使得数据分析过程更加直观和简单。",
+  "roadmap3_title": "InningIQ - 网页爬虫小助手",
+  "roadmap3_description": "同样整合了语言模型 API，InningIQ 的爬虫工具以对话形式帮助用户生成爬取棒球数据的代码。用户只需输入需求，系统会自动生成并指导数据收集过程，节省大量时间。",
+  "roadmap4_title": "InningIQ - 棒球全能助理",
+  "roadmap4_description": "我们正致力于将 Statcast 系统的数据整合进来，目标是通过自然语言查询和可视化 Statcast 数据，从而大幅降低深度分析的技术门槛。",
+  "roadmap5_title": "InningIQ - 影像识别技术与高级数据分析",
+  "roadmap5_description": "未来计划与清华大学运动科学中心合作开发影像识别技术，直接从原始比赛影片中提取网路上所查不到的数，生成更精确的打击热区等高级数据分析结果。这对於中职等缺乏 K-zone 数据的联赛尤其重要。然而，用 2D 影片来分析 3D 的好球带仍是一大挑战。"
+  
 }

@@ -20,5 +20,17 @@
   "jyBaseball": "jyBaseball:Digitization Tool",
   "features3_description": "jyBaseball, a core part of InningiQ, transforms your paper-based baseball records into digital formats with ease. Once digitized, you can visualize and analyze your data, making it simpler to manage and extract insights from historical records.",
   "exploreMore": "Try it now",
-  "developing": "Coming Soon"
+  "developing": "Coming Soon",
+  "roadmapSlogan": "Our Roadmap",
+  "roadmapTitle": "What we’re working on",
+  "roadmap1_title": "jyBaseball - Digitization Tool",
+  "roadmap1_description": "Originally developed two years ago, jyBaseball focuses on digitizing paper-based baseball records and provides simple visualization tools, streamlining data management and analysis for amateur and community teams.",
+  "roadmap2_title": "InningIQ - Visualization Assistant",
+  "roadmap2_description": "InningIQ's visualization tool, powered by language model APIs, allows users to interactively input CSV files or raw data through a conversational interface, which then generates insightful visualizations. This makes the data analysis process more intuitive and accessible.",
+  "roadmap3_title": "InningIQ - Web Scraping Assistant",
+  "roadmap3_description": "Also integrated with language model APIs, the web scraping tool guides users through a conversational interface to generate code for collecting specific baseball data. Simply input your needs, and the tool will handle the rest, saving time and effort.",
+  "roadmap4_title": "InningIQ - Comprehensive Baseball Assistant",
+  "roadmap4_description": "We plan to work on integrating Statcast data, with the goal of allowing users to query and visualize Statcast data effortlessly through natural language, reducing the technical barrier for advanced analysis.",
+  "roadmap5_title": "InningIQ - Image Recognition for Advanced Analytics",
+  "roadmap5_description": "Our future plans include collaborating with NTHU to develop image recognition technology to extract data directly from game videos, enabling advanced analytics like creating accurate heat maps. This will be particularly useful for leagues like Taiwan's CPBL, which lack K-zone data. However, analyzing 2D video for a 3D strike zone remains a challenge."
 }
