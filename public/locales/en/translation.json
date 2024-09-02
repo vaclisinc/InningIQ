@@ -1,5 +1,12 @@
 {
-  "slogan": "Breathing Life into Baseball Numbers with",
+  "features": "Features",
+  "howToUse": "How to Use",
+  "roadmap": "Roadmap",
+  "jyBaseball": "jyBaseball",
+  "languages": "Languages",
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  "slogan": "Breathing Life into Baseball Numbers with ",
   "InningIQ": "InningIQ",
   "subtitleSlogan": "Your ultimate AI-powered baseball analyst in the Cloud.",
   "getStarted": "Get Started"

@@ -4,7 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 
 // 定義支持的語言
-export const supportedLanguages = ['en', 'zh-TW']; // 添加更多語言
+export const supportedLanguages = ['en', 'zh-TW', 'zh-CN'];
 
 // 語言到區域的映射
 const languageToRegion = {
@@ -41,11 +41,11 @@ i18n
 export const getBestMatchLanguage = (detectedLang) => {
     const lowerLang = detectedLang.toLowerCase();
     if (lowerLang.startsWith('zh')) {
-        // if (lowerLang === 'zh-cn') {
-        //     return 'zh-cn';
-        // } else {
-            return 'zh-TW'; 
-        // }
+        if (lowerLang === 'zh-cn') {
+            return 'zh-CN';
+        } else {
+            return 'zh-TW';
+        }
     }
     return languageToRegion[lowerLang] || 'en';
 };

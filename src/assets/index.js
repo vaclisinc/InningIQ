@@ -1,7 +1,9 @@
 import logo_bg from "./logo_background.png";
 import logo from "./logo_small.png";
 import inningiq from "./inningiq.png";
-import brainwave from "./brainwave.svg";
+import home from "./home_bg.png";
+import home_bg from "./home-background.png";
+
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -11,7 +13,7 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -82,7 +84,8 @@ export {
   logo,
   logo_bg,
   inningiq,
-  brainwave,
+  home,
+  home_bg,
   check,
   check2,
   loading1,

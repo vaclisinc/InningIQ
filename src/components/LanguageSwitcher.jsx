@@ -23,12 +23,16 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div>
+    <div className="flex flex-col flex-wrap justify-center lg:justify-start gap-2 mt-6 bg-n-8 rounded-lg p-4">
       {supportedLanguages.map((lng) => (
         <button
           key={lng}
           onClick={() => changeLanguage(lng)}
-          disabled={i18n.language.toLowerCase() === lng.toLowerCase()}
+          className={`px-4 py-2 text-sm lg:text-base transition-colors whitespace-nowrap ${
+            i18n.language.toLowerCase() === lng.toLowerCase()
+              ? "text-color-1" // 紫色
+              : "text-n-1 hover:text-color-1"
+          }`}
         >
           {getLanguageDisplayName(lng)}
         </button>

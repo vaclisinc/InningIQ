@@ -58,16 +58,24 @@ export const navigation = [
     {
         id: "3",
         title: "jyBaseball",
-        url: "https://vaclisinc.github.io/jyBaseball/",
+        // url: "https://vaclisinc.github.io/jyBaseball/",
+        url: "#jyBaseball",
     },
     {
         id: "4",
+        title: "languages",
+        type: "dropdown",
+        component: "LanguageSwitcher",
+        // url: "#languages",
+    },
+    {
+        id: "5",
         title: "newAccount",
         url: "#signup",
         onlyMobile: true,
     },
     {
-        id: "5",
+        id: "6",
         title: "signIn",
         url: "#login",
         onlyMobile: true,

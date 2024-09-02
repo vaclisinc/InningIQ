@@ -1,6 +1,13 @@
 {
+  "features": "功能",
+  "howToUse": "如何使用",
+  "roadmap": "產品藍圖",
+  "jyBaseball": "子服務",
+  "languages": "語言",
+  "signUp": "註冊",
+  "signIn": "登入",
   "slogan": "讓數據說故事的",
   "InningIQ": "InningIQ",
   "subtitleSlogan": "旨在打造一款超越實用的AI棒球分析助理，重塑數據的未來。",
-  "getStarted": "點我開始"
+  "getStarted": "點我了解更多"
 }
