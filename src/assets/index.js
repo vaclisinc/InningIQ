@@ -3,7 +3,7 @@ import logo from "./logo_small.png";
 import inningiq from "./inningiq.png";
 import home from "./home_bg.png";
 import home_bg from "./home-background.png";
-import jyBaseball from "./jyBaseball-preview.jpg"
+import jyBaseball from "./jyBaseball-preview.png"
 
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -55,6 +55,7 @@ import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
+import roadmap5 from "./roadmap/image-5.png";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -79,6 +80,10 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import mail from "./socials/mail.svg";
+import github from "./socials/github.svg";
+import youtube from "./socials/youtube.svg";
+import linkedin from "./socials/linkedin.svg";
 
 export {
   logo,
@@ -131,6 +136,7 @@ export {
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
   undone,
   notification1,
   notification2,
@@ -152,4 +158,8 @@ export {
   instagram,
   telegram,
   twitter,
+  mail,
+  github,
+  youtube,
+  linkedin,
 };

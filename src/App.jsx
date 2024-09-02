@@ -7,6 +7,7 @@ import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
 import Features from "./components/Features.jsx";
 import Roadmap from "./components/Roadmap.jsx";
+import Footer from "./components/Footer.jsx";
 import './i18n.jsx';
 
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -31,7 +32,8 @@ const App = () => {
                 <Header />
                 <Home />
                 <Features />
-                {/* <Roadmap /> */}
+                <Roadmap />
+                <Footer />
             </div>
             <ButtonGradient />
         </Router>

@@ -5,11 +5,14 @@ import Tagline from "./Tagline";
 import { roadmap } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "../constants/design/Roadmap";
+import { useTranslation } from "react-i18next";
 
-const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
+const Roadmap = () => {
+  const { t } = useTranslation();
+  return (
+    <Section className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Ready to get started" title="What we’re working on" />
+      <Heading tag={t("roadmapSlogan")} title={t("roadmapTitle")} />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
@@ -57,8 +60,8 @@ const Roadmap = () => (
                       alt={item.title}
                     />
                   </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
+                  <h4 className="h4 mb-4" ><a href={item.link? item.link : "#roadmap"}>{t(item.title)}</a></h4>
+                  <p className="body-2 text-n-4">{t(item.text)}</p>
                 </div>
               </div>
             </div>
@@ -68,11 +71,9 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
       </div>
-    </div>
-  </Section>
-);
+    </Section>
+  );
+};
 
 export default Roadmap;

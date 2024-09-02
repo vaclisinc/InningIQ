@@ -16,10 +16,23 @@
   "features1_description": "透過結合大型語言模型的對話式界面，只需簡單描述或輸入你的 CSV 或原始數據，InningIQ 就會為你生成量身打造的數據視覺化圖表。無論你是棒球 YouTuber 還是分析師，這項工具能讓您更自在地與數據互動。",
   "features2_title": "網頁爬蟲小助手",
   "features2_description": "忘掉繁瑣的寫程式與閱讀複雜的官網文件吧！InningIQ 的爬蟲工具通過對話式界面將協助或引導您寫出程式來收集所需的棒球數據。只需告訴 InningIQ 你要查找的內容或網站結構，它就會處理技術細節，幫助你節省時間和精力。",
-  "features3_title": "jyBaseball 數位化記錄系統",
-  "jyBaseball": "jyBaseball:數位化記錄系統",
+  "features3_title": "紙本紀錄電子化平台",
+  "jyBaseball": "jyBaseball:紙本紀錄電子化平台",
   "features3_description": "jyBaseball 是 InningIQ 的子服務，讓你可以輕鬆將紙本棒球紀錄數據化。一旦數位記錄好您每個打席的打擊結果後，網頁將自動幫您進行視覺化的分析如繪製打擊熱區的功能，同時簡化管理，能輕鬆從資料庫中查找先前紀錄。",
   "exploreMore": "立即體驗",
-  "developing": "開發中敬請期待"
+  "developing": "開發中敬請期待",
+  "roadmapSlogan": "產品開發地圖",
+  "roadmapTitle": "我們正在開發什麼？",
+  "roadmap1_title": "jyBaseball - 紙本紀錄電子化平台",
+  "roadmap1_description": "jyBaseball 於兩年前開發，專注於將紙本棒球紀錄數據化，並提供簡單的數據視覺化功能，為業餘和社區棒球隊伍簡化數據管理與分析。",
+  "roadmap2_title": "InningIQ - 數據視覺化助手",
+  "roadmap2_description": "InningiQ 的視覺化工具與語言模型 API 整合，讓用戶可以通過對話的方式輸入 CSV 檔案或原始數據，並自動生成數據視覺化圖表。這種互動式界面使得數據分析過程更加直觀和簡單。",
+  "roadmap3_title": "InningIQ - 網頁爬蟲小助手",
+  "roadmap3_description": "同樣整合了語言模型 API，InningIQ 的爬蟲工具以對話形式幫助用戶生成爬取棒球數據的代碼。用戶只需輸入需求，系統會自動生成並指導數據收集過程，節省大量時間。",
+  "roadmap4_title": "InningIQ - 棒球全能助理",
+  "roadmap4_description": "我們正致力於將 Statcast 系統的數據整合進來，目標是通過自然語言查詢和視覺化 Statcast 數據，從而大幅降低深度分析的技術門檻。",
+  "roadmap5_title": "InningIQ - 影像識別技術與高階數據分析",
+  "roadmap5_description": "未來計劃與清華大學運動科學中心合作開發影像識別技術，直接從原始比賽影片中提取網路上所查不到的數據，生成更精確的打擊熱區等高階數據分析結果。這對於中職等缺乏 K-zone 數據的聯賽尤其重要。然而，用 2D 影片來分析 3D 的好球帶仍是一大挑戰。"
+
 
 }
