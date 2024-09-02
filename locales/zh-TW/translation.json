@@ -2,7 +2,7 @@
   "features": "功能",
   "howToUse": "如何使用",
   "roadmap": "產品藍圖",
-  "jyBaseball": "子服務",
+  "services": "子服務",
   "languages": "語言",
   "signUp": "註冊",
   "signIn": "登入",
@@ -10,5 +10,16 @@
   "InningIQ": "InningIQ",
   "subtitleSlogan": "旨在打造一款超越實用的AI棒球分析助理，重塑數據的未來。",
   "getStarted": "點我了解更多",
-  "generatingSlogan": "用 AI 助力棒球分析，解鎖數據中的故事之美⋯⋯"
+  "generatingSlogan": "用 AI 助力棒球分析，解鎖數據中的故事之美⋯⋯",
+  "featuresSlogan": "InningIQ 能提供您哪些服務？",
+  "features1_title": "互動式數據視覺化助手",
+  "features1_description": "透過結合大型語言模型的對話式界面，只需簡單描述或輸入你的 CSV 或原始數據，InningIQ 就會為你生成量身打造的數據視覺化圖表。無論你是棒球 YouTuber 還是分析師，這項工具能讓您更自在地與數據互動。",
+  "features2_title": "網頁爬蟲小助手",
+  "features2_description": "忘掉繁瑣的寫程式與閱讀複雜的官網文件吧！InningIQ 的爬蟲工具通過對話式界面將協助或引導您寫出程式來收集所需的棒球數據。只需告訴 InningIQ 你要查找的內容或網站結構，它就會處理技術細節，幫助你節省時間和精力。",
+  "features3_title": "jyBaseball 數位化記錄系統",
+  "jyBaseball": "jyBaseball:數位化記錄系統",
+  "features3_description": "jyBaseball 是 InningIQ 的子服務，讓你可以輕鬆將紙本棒球紀錄數據化。一旦數位記錄好您每個打席的打擊結果後，網頁將自動幫您進行視覺化的分析如繪製打擊熱區的功能，同時簡化管理，能輕鬆從資料庫中查找先前紀錄。",
+  "exploreMore": "立即體驗",
+  "developing": "開發中敬請期待"
+
 }

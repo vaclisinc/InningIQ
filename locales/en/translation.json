@@ -2,7 +2,7 @@
   "features": "Features",
   "howToUse": "How to Use",
   "roadmap": "Roadmap",
-  "jyBaseball": "jyBaseball",
+  "services": "Services",
   "languages": "Languages",
   "signUp": "Sign Up",
   "signIn": "Sign In",
@@ -10,5 +10,15 @@
   "InningIQ": "InningIQ",
   "subtitleSlogan": "Your ultimate AI-powered baseball analyst in the Cloud.",
   "getStarted": "Get Started",
-  "generatingSlogan": "Transform Data into Winning Insights with InningIQ..."
+  "generatingSlogan": "Transform Data into Winning Insights with InningIQ...",
+  "featuresSlogan": "What can you achieve with InningIQ?",
+  "features1_title": "Visualization Assistant",
+  "features1_description": "With InningIQ, you don't just upload data—you interact with it. Through a conversational interface powered by language models, simply describe or input your CSV or raw data, and InningiQ will generate insightful visualizations tailored to your needs no matter you're a baseball YouTuber or an analyst.",
+  "features2_title": "Web Scraping Assistant",
+  "features2_description": "Forget manual coding or complicated setups. InningiQ's web scraping tool guides you through a conversation to help generate custom code for collecting the baseball data you need. Just tell InningiQ what you're looking for, and it handles the technical details, saving you time and effort.",
+  "features3_title": "Digitization Tool",
+  "jyBaseball": "jyBaseball:Digitization Tool",
+  "features3_description": "jyBaseball, a core part of InningiQ, transforms your paper-based baseball records into digital formats with ease. Once digitized, you can visualize and analyze your data, making it simpler to manage and extract insights from historical records.",
+  "exploreMore": "Try it now",
+  "developing": "Coming Soon"
 }
