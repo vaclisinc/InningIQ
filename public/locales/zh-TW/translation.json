@@ -6,8 +6,9 @@
   "languages": "語言",
   "signUp": "註冊",
   "signIn": "登入",
-  "slogan": "讓數據說故事的",
+  "slogan": "讓數據說故事的 ",
   "InningIQ": "InningIQ",
   "subtitleSlogan": "旨在打造一款超越實用的AI棒球分析助理，重塑數據的未來。",
-  "getStarted": "點我了解更多"
+  "getStarted": "點我了解更多",
+  "generatingSlogan": "用 AI 助力棒球分析，解鎖數據中的故事之美⋯⋯"
 }

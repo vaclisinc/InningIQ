@@ -48,7 +48,7 @@ export const navigation = [
     {
         id: "1",
         title: "howToUse",
-        url: "#how-to-use",
+        url: "#howtouse",
     },
     {
         id: "2",
@@ -70,14 +70,14 @@ export const navigation = [
     },
     {
         id: "5",
-        title: "newAccount",
+        title: "signUp",
         url: "#signup",
         onlyMobile: true,
     },
     {
         id: "6",
         title: "signIn",
-        url: "#login",
+        url: "#signin",
         onlyMobile: true,
     },
 ];
