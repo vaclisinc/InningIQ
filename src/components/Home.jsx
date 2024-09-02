@@ -14,7 +14,7 @@ import Section from "./Section";
 import Generating from "./Generating";
 
 
-const Hero = () => {
+const Home = () => {
   const { t } = useTranslation();
   const parallaxRef = useRef(null);
 
@@ -44,7 +44,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             {t("subtitleSlogan")}
           </p>
-          <Button href="/features" white>
+          <Button href="#features" white>
             {t("getStarted")}
           </Button>
         </div>
@@ -96,4 +96,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

@@ -9,6 +9,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg.jsx";
 import {HamburgerMenu} from "../constants/design/Header.jsx";
 import LanguageSwitcher from "./LanguageSwitcher.jsx";
+import Services from "./Services.jsx";
 
 const Header = () => {
     const pathname = useLocation();
@@ -36,7 +37,7 @@ const Header = () => {
             'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
             <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
                 <a
-                    className="block w-[12rem] xl:mr-8" href="#inningIQ">
+                    className="block w-[12rem] xl:mr-8" href="#">
                     <img src={inningiq} width={200} height={50} alt="InningIQ"/>
                 </a>
                 <nav
@@ -47,7 +48,8 @@ const Header = () => {
                             (<div key={item.id} className={`group relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${item.onlyMobile ? "lg:hidden" : ""} px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${item.url === pathname.hash ? "z-2 lg:text-n-1" : "lg:text-n-1/50"} lg:leading-5 lg:hover:text-n-1 xl:px-12`}>
                                 <button className="nav-link uppercase w-full text-center" onClick={() => setOpenNavigation(false)}>{t(item.title).toUpperCase()}</button>
                                 <div className={`${openNavigation ? 'block' : 'hidden'} lg:absolute lg:hidden lg:group-hover:block mt-2 lg:mt-0 left-1/2 lg:transform lg:-translate-x-1/2`}>
-                                    {item.component === "LanguageSwitcher" && <LanguageSwitcher />}
+                                    {item.component === "LanguageSwitcher" && <LanguageSwitcher /> || item.component === "Services" && <Services />}
+
                                 </div>
                             </div>)
                             :

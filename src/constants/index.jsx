@@ -48,7 +48,7 @@ export const navigation = [
     {
         id: "1",
         title: "howToUse",
-        url: "#howtouse",
+        url: "#features",
     },
     {
         id: "2",
@@ -57,9 +57,10 @@ export const navigation = [
     },
     {
         id: "3",
-        title: "jyBaseball",
+        title: "services",
         // url: "https://vaclisinc.github.io/jyBaseball/",
-        url: "#jyBaseball",
+        type: "dropdown",
+        component: "Services",
     },
     {
         id: "4",
@@ -252,19 +253,19 @@ export const pricing = [
     },
 ];
 
-export const benefits = [
+export const features = [
     {
         id: "0",
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "features1_title",
+        text: "features1_description",
         backgroundUrl: "assets/benefits/card-1.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
     },
     {
         id: "1",
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "features2_title",
+        text: "features2_description",
         backgroundUrl: "assets/benefits/card-2.svg",
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
@@ -272,37 +273,38 @@ export const benefits = [
     },
     {
         id: "2",
-        title: "Connect everywhere",
-        text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+        title: "features3_title",
+        text: "features3_description",
         backgroundUrl: "assets/benefits/card-3.svg",
         iconUrl: benefitIcon3,
         imageUrl: benefitImage2,
-    },
-    {
-        id: "3",
-        title: "Fast responding",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: "assets/benefits/card-4.svg",
-        iconUrl: benefitIcon4,
-        imageUrl: benefitImage2,
-        light: true,
-    },
-    {
-        id: "4",
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-        backgroundUrl: "assets/benefits/card-5.svg",
-        iconUrl: benefitIcon1,
-        imageUrl: benefitImage2,
-    },
-    {
-        id: "5",
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-        backgroundUrl: "assets/benefits/card-6.svg",
-        iconUrl: benefitIcon2,
-        imageUrl: benefitImage2,
-    },
+    }
+    // ,
+    // {
+    //     id: "3",
+    //     title: "Fast responding",
+    //     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    //     backgroundUrl: "assets/benefits/card-4.svg",
+    //     iconUrl: benefitIcon4,
+    //     imageUrl: benefitImage2,
+    //     light: true,
+    // },
+    // {
+    //     id: "4",
+    //     title: "Ask anything",
+    //     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    //     backgroundUrl: "assets/benefits/card-5.svg",
+    //     iconUrl: benefitIcon1,
+    //     imageUrl: benefitImage2,
+    // },
+    // {
+    //     id: "5",
+    //     title: "Improve everyday",
+    //     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    //     backgroundUrl: "assets/benefits/card-6.svg",
+    //     iconUrl: benefitIcon2,
+    //     imageUrl: benefitImage2,
+    // },
 ];
 
 export const socials = [

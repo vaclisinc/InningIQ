@@ -5,6 +5,8 @@ import { getBestMatchLanguage, supportedLanguages } from './i18n';
 import ButtonGradient from "./assets/svg/ButtonGradient.jsx";
 import Header from "./components/Header.jsx";
 import Home from "./components/Home.jsx";
+import Features from "./components/Features.jsx";
+import Roadmap from "./components/Roadmap.jsx";
 import './i18n.jsx';
 
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -28,6 +30,8 @@ const App = () => {
             <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
                 <Header />
                 <Home />
+                <Features />
+                {/* <Roadmap /> */}
             </div>
             <ButtonGradient />
         </Router>

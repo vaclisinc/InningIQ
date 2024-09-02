@@ -3,6 +3,7 @@ import logo from "./logo_small.png";
 import inningiq from "./inningiq.png";
 import home from "./home_bg.png";
 import home_bg from "./home-background.png";
+import jyBaseball from "./jyBaseball-preview.jpg"
 
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -85,6 +86,7 @@ export {
   inningiq,
   home,
   home_bg,
+  jyBaseball,
   check,
   check2,
   loading1,
