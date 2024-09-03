@@ -36,7 +36,13 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    {t("exploreMore")}
+                    {item.available ? (
+                      <a href={item.url} className="pointer-events-auto">
+                        {t("exploreMore")}
+                      </a>
+                    ) : (
+                      t("stayTuned")
+                    )}
                   </p>
                   <Arrow />
                 </div>

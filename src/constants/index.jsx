@@ -49,17 +49,17 @@ export const navigation = [
     {
         id: "0",
         title: "features",
-        url: "#features",
+        url: "/InningIQ/#features",
     },
     {
         id: "1",
         title: "howToUse",
-        url: "#features",
+        url: "/InningIQ/#features",
     },
     {
         id: "2",
         title: "roadmap",
-        url: "#roadmap",
+        url: "/InningIQ/#roadmap",
     },
     {
         id: "3",
@@ -78,13 +78,13 @@ export const navigation = [
     {
         id: "5",
         title: "signUp",
-        url: "#signup",
+        url: "/InningIQ/#signup",
         onlyMobile: true,
     },
     {
         id: "6",
         title: "signIn",
-        url: "#signin",
+        url: "/InningIQ/#signin",
         onlyMobile: true,
     },
 ];
@@ -276,6 +276,8 @@ export const features = [
         backgroundUrl: "assets/benefits/card-1.svg",
         iconUrl: benefitIcon1,
         imageUrl: benefitImage2,
+        available: true,
+        url: "/InningIQ/InningIQAssistant"
     },
     {
         id: "1",
@@ -285,6 +287,8 @@ export const features = [
         iconUrl: benefitIcon2,
         imageUrl: benefitImage2,
         light: true,
+        available: false,
+        url: "/"
     },
     {
         id: "2",
@@ -293,6 +297,8 @@ export const features = [
         backgroundUrl: "assets/benefits/card-3.svg",
         iconUrl: benefitIcon3,
         imageUrl: benefitImage2,
+        available: true,
+        url:"https://vaclisinc.github.io/jyBaseball"
     }
     // ,
     // {

@@ -8,9 +8,10 @@ import Home from "./components/Home.jsx";
 import Features from "./components/Features.jsx";
 import Roadmap from "./components/Roadmap.jsx";
 import Footer from "./components/Footer.jsx";
+import Chatbot from "./components/Chatbot.jsx";
 import './i18n.jsx';
 
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 //pt = padding-top, lg = large, mt = margin-top
 const App = () => {
@@ -27,12 +28,17 @@ const App = () => {
     }, [i18n]);
 
     return (
-        <Router>
+        <Router basename="/InningIQ">
             <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
                 <Header />
-                <Home />
-                <Features />
-                <Roadmap />
+                <Routes>
+                    <Route path="/" element={<>
+                        <Home />
+                        <Features />
+                        <Roadmap />
+                    </>} />
+                    <Route path="/InningIQAssistant" element={<Chatbot />} />
+                </Routes>
                 <Footer />
             </div>
             <ButtonGradient />

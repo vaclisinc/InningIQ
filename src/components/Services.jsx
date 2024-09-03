@@ -4,7 +4,7 @@ const ServicesDropdown = () => {
   const { t } = useTranslation();
 
   const services = [
-    { name: 'features1_title', url: '#howToUse' },
+    { name: 'features1_title', url: '/InningIQ/InningIQAssistant' },
     { name: 'jyBaseball', url: 'https://vaclisinc.github.io/jyBaseball/' },
   ];
 

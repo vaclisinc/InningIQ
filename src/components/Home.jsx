@@ -81,8 +81,8 @@ const Home = () => {
             <img
               src={heroBackground}
               className="w-full"
-              width={5184}
-              height={3456}
+              width={1800}
+              height={1200}
               alt="AI"
             />
           </div>
