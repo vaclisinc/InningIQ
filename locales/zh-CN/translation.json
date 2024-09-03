@@ -30,5 +30,7 @@
   "roadmap4_description": "我们正致力于将 Statcast 系统的数据整合进来，目标是通过自然语言查询和可视化 Statcast 数据，从而大幅降低深度分析的技术门槛。",
   "roadmap5_title": "InningIQ - 影像识别技术与高级数据分析",
   "roadmap5_description": "未来计划与清华大学运动科学中心合作开发影像识别技术，直接从原始比赛影片中提取网路上所查不到的数，生成更精确的打击热区等高级数据分析结果。这对於中职等缺乏 K-zone 数据的联赛尤其重要。然而，用 2D 影片来分析 3D 的好球带仍是一大挑战。",
-  "chatbot1Title": "InningIQ - 数据可视化助手"
+  "chatbot1Title": "InningIQ - 数据可视化助手",
+  "typeYourMessage": "请输入您的数据与想画的图表，叙说越详细越好",
+  "send": "送出"
 }
