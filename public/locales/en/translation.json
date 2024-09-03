@@ -33,5 +33,7 @@
   "roadmap4_description": "We plan to work on integrating Statcast data, with the goal of allowing users to query and visualize Statcast data effortlessly through natural language, reducing the technical barrier for advanced analysis.",
   "roadmap5_title": "InningIQ - Image Recognition for Advanced Analytics",
   "roadmap5_description": "Our future plans include collaborating with NTHU to develop image recognition technology to extract data directly from game videos, enabling advanced analytics like creating accurate heat maps. This will be particularly useful for leagues like Taiwan's CPBL, which lack K-zone data. However, analyzing 2D video for a 3D strike zone remains a challenge.",
-  "chatbot1Title" : "InningIQ - Visualization Assistant"
+  "chatbot1Title" : "InningIQ - Visualization Assistant",
+  "typeYourMessage": "Please enter your data and the chart you want to draw, the more detailed the better",
+  "send": "Send"
 }
