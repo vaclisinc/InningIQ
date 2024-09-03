@@ -1,6 +1,6 @@
 # [InningIQ](https://inningiq.web.app) - AI-Powered Baseball Analysis Assistant 
 
-[InningIQ](https://inningiq.web.app) [(old jyBaseball plan)](https://github.com/vaclisinc/jyBaseball) is an AI-driven platform designed to lower the barriers to baseball data analysis. By integrating powerful language models, InningIQ provides a conversational interface that allows users to effortlessly interact with data, visualize insights, and generate custom web scraping code. Whether you're a baseball YouTuber, analyst, or amateur team coach, InningIQ simplifies the entire process, saving you time and effort.
+[InningIQ](https://inningiq.web.app) is an AI-driven platform designed to lower the barriers to baseball data analysis. By integrating powerful language models, InningIQ provides a conversational interface that allows users to effortlessly interact with data, visualize insights, and generate custom web scraping code. Whether you're a baseball YouTuber, analyst, or amateur team coach, InningIQ simplifies the entire process, saving you time and effort.
 
 ## Features
 
@@ -10,45 +10,123 @@
 - **Conversational Web Scraping Tool**
   InningIQ's web scraping tool guides you through generating custom code to collect the baseball data you need. Just input your requirements, and the tool handles the rest.
 
-- **Digitization of Paper Records (jyBaseball)**
+- **Digitization of Paper Records [(old jyBaseball plan)](https://github.com/vaclisinc/jyBaseball)**
   Convert your paper-based baseball records into digital formats, then visualize and analyze the data to streamline your team's performance tracking and history management.
 
 ## Getting Started
 
-Follow these steps to get started with InningIQ:
+Currently, InningIQ is still under development. You can visit our [website](https://inningiq.web.app) to learn about the latest progress and upcoming features.
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/InningIQ.git
-   ```
-
-2. **Install dependencies**
-   ```bash
-   cd InningIQ
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**
-   Create a `.env` file in the root directory and add your API keys:
-   ```
-   OPENAI_API_KEY=your_openai_api_key
-   ```
-
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
-
-5. **Access the web interface**
-   Open your browser and navigate to `http://localhost:5000`
-
-## Usage
+## How to Use
 
 1. **Data Visualization**: Upload your CSV file or describe your data in the chat interface. InningIQ will guide you through creating visualizations.
 
 2. **Web Scraping**: Tell InningIQ what data you need and from where. It will generate and execute the scraping code for you.
 
-3. **Paper Record Digitization**: Use the jyBaseball module to convert paper records. Follow the prompts to input your data and generate digital formats.
+3. **Digitizing Paper Records**: Use the jyBaseball module to convert paper records. Follow the prompts to input your data and generate digital formats.
+
+
+# Installation for local development
+
+Follow these steps to set up and run InningIQ on your local machine:
+
+1. **Install Node.js and npm** (Node Package Manager) if you haven't already.
+
+2. **Clone the repository:**
+```bash
+git clone https://github.com/vaclisinc/InningIQ.git
+cd InningIQ
+```
+
+3. **Install dependencies:**
+```bash
+npm install
+```
+
+4. **Start the development server:**
+```bash
+npm run dev
+```
+
+5. **Open your browser** and navigate to `http://localhost:5173` (or the port specified in the console output).
+
+For building the project for production:
+
+```bash
+npm run build
+```
+
+This will create a `dist` folder with the built files.
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+Note: The project uses Vite as the build tool, React for the frontend, and includes i18n for internationalization. The `package.json` file shows all the dependencies and scripts available for the project:
+
+
+```1:42:package.json
+{
+  "name": "inningiq",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://vaclisinc.github.io/InningIQ",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "i18next": "^23.14.0",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.6.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.1",
+    "react-just-parallax": "^3.1.16",
+    "react-router-dom": "^6.26.1",
+    "scroll-lock": "^2.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.1.1",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  }
+}
+```
+
+
+If you need to make any changes to the configuration, you can refer to the `vite.config.js` file:
+
+
+```1:8:vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  base: '/', // 添加这一行
+  plugins: [react()],
+})
+```
+
 
 ## Contributing
 
@@ -63,4 +141,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - OpenAI for their powerful language models
 - The open-source community for various libraries used in this project
 
-For more information, visit our [documentation](https://inningIQ.readthedocs.io/).
+For more information, visit our [documentation](https://inningiq.web.app/#roadmap).
