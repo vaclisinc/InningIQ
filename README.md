@@ -1,6 +1,6 @@
-# InningIQ - AI-Powered Baseball Analysis Assistant 
+# [InningIQ](https://inningiq.web.app) - AI-Powered Baseball Analysis Assistant 
 
-InningIQ [(old jyBaseball plan)](https://github.com/vaclisinc/jyBaseball) is an AI-driven platform designed to lower the barriers to baseball data analysis. By integrating powerful language models, InningIQ provides a conversational interface that allows users to effortlessly interact with data, visualize insights, and generate custom web scraping code. Whether you're a baseball YouTuber, analyst, or amateur team coach, InningIQ simplifies the entire process, saving you time and effort.
+[InningIQ](https://inningiq.web.app) [(old jyBaseball plan)](https://github.com/vaclisinc/jyBaseball) is an AI-driven platform designed to lower the barriers to baseball data analysis. By integrating powerful language models, InningIQ provides a conversational interface that allows users to effortlessly interact with data, visualize insights, and generate custom web scraping code. Whether you're a baseball YouTuber, analyst, or amateur team coach, InningIQ simplifies the entire process, saving you time and effort.
 
 ## Features
 

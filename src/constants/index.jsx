@@ -49,17 +49,17 @@ export const navigation = [
     {
         id: "0",
         title: "features",
-        url: "/InningIQ/#features",
+        url: "#features",
     },
     {
         id: "1",
         title: "howToUse",
-        url: "/InningIQ/#features",
+        url: "#features",
     },
     {
         id: "2",
         title: "roadmap",
-        url: "/InningIQ/#roadmap",
+        url: "#roadmap",
     },
     {
         id: "3",
@@ -78,35 +78,15 @@ export const navigation = [
     {
         id: "5",
         title: "signUp",
-        url: "/InningIQ/#signup",
+        url: "#signup",
         onlyMobile: true,
     },
     {
         id: "6",
         title: "signIn",
-        url: "/InningIQ/#signin",
+        url: "#signin",
         onlyMobile: true,
     },
-];
-
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
-
-export const companyLogos = [logo, logo_bg, inningiq];
-
-export const brainwaveServices = [
-    "Photo generating",
-    "Photo enhance",
-    "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-    recording03,
-    recording01,
-    disc02,
-    chromecast,
-    sliders04,
 ];
 
 export const roadmap = [
@@ -153,6 +133,89 @@ export const roadmap = [
         imageUrl: roadmap5,
     },
 ];
+
+export const features = [
+    {
+        id: "0",
+        title: "features1_title",
+        text: "features1_description",
+        backgroundUrl: "./assets/benefits/card-1.svg",
+        iconUrl: benefitIcon1,
+        imageUrl: benefitImage2,
+        available: true,
+        url: "/InningIQAssistant"
+    },
+    {
+        id: "1",
+        title: "features2_title",
+        text: "features2_description",
+        backgroundUrl: "./assets/benefits/card-2.svg",
+        iconUrl: benefitIcon2,
+        imageUrl: benefitImage2,
+        light: true,
+        available: false,
+        url: "/"
+    },
+    {
+        id: "2",
+        title: "features3_title",
+        text: "features3_description",
+        backgroundUrl: "./assets/benefits/card-3.svg",
+        iconUrl: benefitIcon3,
+        imageUrl: benefitImage2,
+        available: true,
+        url:"https://vaclisinc.github.io/jyBaseball"
+    }
+];
+
+export const socials = [
+    {
+        id: "0",
+        title: "Mail",
+        iconUrl: mail,
+        url: "mailto:vacliscofounders@gmail.com",
+    },
+    {
+        id: "1",
+        title: "Youtube",
+        iconUrl: youtube,
+        url: "https://www.youtube.com/@vaclis_daily",
+    },
+    {
+        id: "2",
+        title: "Github",
+        iconUrl: github,
+        url: "https://github.com/vaclisinc",
+    },
+    {
+        id: "3",
+        title: "Linkedin",
+        iconUrl: linkedin,
+        url: "https://www.linkedin.com/in/vaclis/",
+    },
+];
+
+
+export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+
+export const notificationImages = [notification4, notification3, notification2];
+
+export const companyLogos = [logo, logo_bg, inningiq];
+
+export const brainwaveServices = [
+    "Photo generating",
+    "Photo enhance",
+    "Seamless Integration",
+];
+
+export const brainwaveServicesIcons = [
+    recording03,
+    recording01,
+    disc02,
+    chromecast,
+    sliders04,
+];
+
 
 export const collabText =
     "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
@@ -265,92 +328,5 @@ export const pricing = [
             "Personalized recommendations based on your preferences",
             "Ability to explore the app and its features without any cost",
         ],
-    },
-];
-
-export const features = [
-    {
-        id: "0",
-        title: "features1_title",
-        text: "features1_description",
-        backgroundUrl: "./assets/benefits/card-1.svg",
-        iconUrl: benefitIcon1,
-        imageUrl: benefitImage2,
-        available: true,
-        url: "/InningIQ/InningIQAssistant"
-    },
-    {
-        id: "1",
-        title: "features2_title",
-        text: "features2_description",
-        backgroundUrl: "./assets/benefits/card-2.svg",
-        iconUrl: benefitIcon2,
-        imageUrl: benefitImage2,
-        light: true,
-        available: false,
-        url: "/"
-    },
-    {
-        id: "2",
-        title: "features3_title",
-        text: "features3_description",
-        backgroundUrl: "./assets/benefits/card-3.svg",
-        iconUrl: benefitIcon3,
-        imageUrl: benefitImage2,
-        available: true,
-        url:"https://vaclisinc.github.io/jyBaseball"
-    }
-    // ,
-    // {
-    //     id: "3",
-    //     title: "Fast responding",
-    //     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    //     backgroundUrl: "assets/benefits/card-4.svg",
-    //     iconUrl: benefitIcon4,
-    //     imageUrl: benefitImage2,
-    //     light: true,
-    // },
-    // {
-    //     id: "4",
-    //     title: "Ask anything",
-    //     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    //     backgroundUrl: "assets/benefits/card-5.svg",
-    //     iconUrl: benefitIcon1,
-    //     imageUrl: benefitImage2,
-    // },
-    // {
-    //     id: "5",
-    //     title: "Improve everyday",
-    //     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    //     backgroundUrl: "assets/benefits/card-6.svg",
-    //     iconUrl: benefitIcon2,
-    //     imageUrl: benefitImage2,
-    // },
-];
-
-export const socials = [
-    {
-        id: "0",
-        title: "Mail",
-        iconUrl: mail,
-        url: "mailto:vacliscofounders@gmail.com",
-    },
-    {
-        id: "1",
-        title: "Youtube",
-        iconUrl: youtube,
-        url: "https://www.youtube.com/@vaclis_daily",
-    },
-    {
-        id: "2",
-        title: "Github",
-        iconUrl: github,
-        url: "https://github.com/vaclisinc",
-    },
-    {
-        id: "3",
-        title: "Linkedin",
-        iconUrl: linkedin,
-        url: "https://www.linkedin.com/in/vaclis/",
     },
 ];

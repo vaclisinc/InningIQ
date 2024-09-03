@@ -28,7 +28,7 @@ const App = () => {
     }, [i18n]);
 
     return (
-        <Router basename="/InningIQ">
+        <Router>
             <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
                 <Header />
                 <Routes>
