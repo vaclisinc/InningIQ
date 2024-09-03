@@ -28,3 +28,6 @@ dist-ssr
 .firebaserc
 firebase.json
 .github/
+
+licenses/
+LICENSE.txt

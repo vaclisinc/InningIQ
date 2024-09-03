@@ -4,7 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 
 // 定義支持的語言
-export const supportedLanguages = ['en', 'zh-TW', 'zh-CN'];
+export const supportedLanguages = ['en', 'zh-TW', 'zh-CN', 'zh'];
 
 // 語言到區域的映射
 const languageToRegion = {
