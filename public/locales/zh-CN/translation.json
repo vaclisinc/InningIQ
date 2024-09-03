@@ -33,5 +33,6 @@
   "chatbot1Title": "InningIQ - 数据可视化助手",
   "typeYourMessage": "请输入您的数据与想画的图表，叙说越详细越好",
   "send": "送出",
-  "attachFile": "附加文件"
+  "attachFile": "附加文件",
+  "fileAttached": "已附加文件"
 }

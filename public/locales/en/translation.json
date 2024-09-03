@@ -36,5 +36,6 @@
   "chatbot1Title" : "InningIQ - Visualization Assistant",
   "typeYourMessage": "Please enter your data and the chart you want to draw, the more detailed the better",
   "send": "Send",
-  "attachFile": "Add file"
+  "attachFile": "Add file",
+  "fileAttached": "File attached"
 }
