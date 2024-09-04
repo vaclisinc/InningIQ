@@ -5,6 +5,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { gradient } from "../assets";
 import Image from "./Image";
+import FullScreenImage from "./FullScreenImage";
 
 const Chatbot = () => {
   const { t } = useTranslation();
@@ -12,6 +13,7 @@ const Chatbot = () => {
   const [inputMessage, setInputMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [attachment, setAttachment] = useState(null);
+  const [fullScreenImage, setFullScreenImage] = useState(false);
   const fileInputRef = useRef(null);
 
   const handleFileChange = (event) => {
@@ -48,28 +50,33 @@ const Chatbot = () => {
           }
         );
         console.log(response.data);
+        const contentType = response.headers['content-type'];
         // 處理後端返回的 AI 回覆
-        if (response.data && response.data.message) {
-          console.log(response.data.message);
-          setMessages((prevMessages) => [
-            ...prevMessages,
-            { text: response.data.message, sender: "ai" },
-          ]);
-        } else if (response.data && response.headers['content-type'] === 'image/png') {
-          // 處理PNG文件
-          const imageUrl = URL.createObjectURL(new Blob([response.data]));
+        if (contentType.includes('application/json')) {
+          // 处理 JSON 响应
+          const jsonData = JSON.parse(new TextDecoder().decode(response.data));
+          console.log(jsonData);
+          if (jsonData.message) {
+            setMessages((prevMessages) => [
+              ...prevMessages,
+              { text: jsonData.message, sender: "ai" },
+            ]);
+          }
+        } else if (contentType.includes('image/')) {
+          // 处理图片响应
+          const imageUrl = URL.createObjectURL(new Blob([response.data], { type: contentType }));
           setMessages((prevMessages) => [
             ...prevMessages,
             { image: imageUrl, sender: "ai" },
           ]);
-          console.log(response.data);
         } else {
           console.error("後端返回的數據格式不正確");
           setIsLoading(false);
+          
           // 可以在這裡添加錯誤處理邏輯，例如顯示錯誤消息
         }
 
-        setAttachment(null);
+        // setAttachment(null);
       } catch (error) {
         console.error("發送消息時出錯:", error);
         // 可以在這裡添加錯誤處理邏輯
@@ -78,6 +85,12 @@ const Chatbot = () => {
       }
     }
   };
+
+  const handleImageClick = () => {
+    fullScreenImage? setFullScreenImage(false): setFullScreenImage(true);
+  };
+
+
 
   const renderMessages = () => {
     return messages.map((message, index) => (
@@ -97,8 +110,23 @@ const Chatbot = () => {
           {message.text ? (
             message.text
           ) : message.image ? (
-            <img src={message.image} alt="AI生圖時發生錯誤請再試一次，或檢查會不會匯入的資料有誤" className="max-w-full h-auto" />
+            // <img src={message.image} alt="AI生圖時發生錯誤請再試一次，或檢查會不會匯入的資料有誤" className="max-w-full h-auto" />
             // <Image src={message.image} border={true} zoom={true}></Image>
+              <div>
+              <img 
+                src={message.image} 
+                alt="消息图片" 
+                onClick={() => handleImageClick()}
+                style={{ cursor: 'pointer' }}
+              />
+              {fullScreenImage && (
+                <FullScreenImage 
+                  src={message.image} 
+                  alt="Full screen image" 
+                  onClose={() => setFullScreenImage(false)}
+                />
+              )}
+              </div>
           ) : null}
         </div>
       </div>
