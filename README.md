@@ -2,6 +2,8 @@
 
 [InningIQ](https://inningiq.web.app) is an AI-driven platform designed to lower the barriers to baseball data analysis. By integrating powerful language models, InningIQ provides a conversational interface that allows users to effortlessly interact with data, visualize insights, and generate custom web scraping code. Whether you're a baseball YouTuber, analyst, or amateur team coach, InningIQ simplifies the entire process, saving you time and effort.
 
+[![InningIQ website](https://raw.githubusercontent.com/vaclisinc/InningIQ/2068bd869b9c3d8e3be26cc298af7e29c27cdfb0/preview.gif)](https://inningiq.web.app/)
+
 ## Features
 
 - **Interactive Data Visualization**
